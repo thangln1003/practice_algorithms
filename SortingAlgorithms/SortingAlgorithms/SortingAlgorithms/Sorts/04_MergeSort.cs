@@ -10,6 +10,8 @@
          *   -> Tạo một dãy A mới để chứa các phần tử sắp xếp.
          *   -> So sánh 2 phần tử đầu tiên của 2 phần. Phần tử nhỏ hơn ta cho vào A và xóa khỏi phần tử tương ứng.
          *   -> Tiếp tục như vậy đến khi ta cho hết các phần tử vào dãy A.
+         *   
+         *   Complexity: O(N * logN)
          */
 
         public static int[] Sort(int[] arr, int low, int high)

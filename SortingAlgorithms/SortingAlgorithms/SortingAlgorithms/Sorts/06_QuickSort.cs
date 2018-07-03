@@ -12,6 +12,7 @@ namespace SortingAlgorithms.Sorts
          * -> Những phần tử nhỏ hơn hoặc bằng pivot chia vào phần nhỏ
          * Gọi đệ quy để sắp xếp 2 phần (Recursive calls)
          * 
+         *   Complexity: O(N * logN)
          */
         public static void Sort(int[] arr, int left, int right)
         {
