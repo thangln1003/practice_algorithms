@@ -6,5 +6,9 @@ namespace SortingAlgorithms.Sorts
 {
     public static class HeapSort
     {
+        public static void Sort(int[]arr)
+        {
+            
+        }
     }
 }

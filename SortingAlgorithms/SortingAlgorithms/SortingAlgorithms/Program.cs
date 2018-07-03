@@ -18,12 +18,13 @@ namespace SortingAlgorithms
              */
             //BubbleSort.Sort(arr);
             //SelectionSort.Sort(arr);
-            InsertionSort.Sort(arr);
+            //InsertionSort.Sort(arr);
 
             /*
              * O(NlogN)
              */
-            //MergeSort.Sort(arr);
+            //arr = MergeSort.Sort(arr, 0, arr.Length);
+            QuickSort.Sort(arr, 0, arr.Length - 1);
 
             Console.WriteLine("Result:");
 
